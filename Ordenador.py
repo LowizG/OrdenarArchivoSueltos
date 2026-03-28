@@ -2,7 +2,7 @@ import os
 import shutil
 
 #Directorio a trabajar
-data = '/home/user/Downloads/'
+data = '/home/lowiz/Downloads/'
 #lista con los archivos del directorio
 archivos = os.listdir(data)
 
@@ -43,6 +43,9 @@ def mover_Archivos(archivos):
 lista_formatos  = iterar_Archivos(archivos)
 crear_Carpetas(lista_formatos)
 mover_Archivos(archivos)
+print('Fin')
+
+print('Primer cambio en el archivo')
 
 print('prueba')
 
